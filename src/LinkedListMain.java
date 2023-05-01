@@ -7,5 +7,13 @@ public class LinkedListMain {
         stackList.push(30);
         stackList.push(56);
         stackList.display();
+
+        stackList.peak();
+
+        stackList.display();
+
+        stackList.pop();
+
+        stackList.display();
     }
 }
