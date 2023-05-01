@@ -26,4 +26,29 @@ public class LinkedList<T> {
         }
         System.out.println();
     }
+
+    public void peak() {
+        Node<T> temp = tail;
+        while (temp!= null){
+            System.out.println(temp.data);
+            temp= temp.next;
+
+        }
+        System.out.println();
+
+    }
+
+    public T pop() {
+        T popData = tail.data;
+        Node<T> temp = head;
+        while (temp.next != null){
+            temp = temp.next;
+
+        }
+        temp.next = null  ;
+        tail = temp;
+        return popData;
+
+    }
+
 }

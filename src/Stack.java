@@ -9,4 +9,12 @@ public class Stack<T> {
     {
         stackLinkedlist.display();
     }
+
+    public void peak() {
+        stackLinkedlist.peak();
+    }
+
+    public void pop() {
+        stackLinkedlist.pop();
+    }
 }
