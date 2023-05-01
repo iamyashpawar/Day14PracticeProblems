@@ -10,7 +10,6 @@ public class LinkedList<T> {
             head = newNode;
             tail = newNode;
         }else {
-
             tail.next =newNode;
             tail = newNode;
         }
