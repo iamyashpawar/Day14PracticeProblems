@@ -38,7 +38,7 @@ public class LinkedList<T> {
 
     }
 
-    public T pop() {
+    public T popLast() {
         T popData = tail.data;
         Node<T> temp = head;
         while (temp.next != null){
@@ -50,5 +50,12 @@ public class LinkedList<T> {
         return popData;
 
     }
+
+    public void popFirst() {
+        T popData = head.data;
+        head = head.next;
+
+        }
+
 
 }

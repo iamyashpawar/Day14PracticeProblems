@@ -10,4 +10,9 @@ public class Queue<T> {
     public void display(){
         queueLinkedlist.display();
     }
+
+    public void dequeue()
+    {
+        queueLinkedlist.popFirst();
+    }
 }
