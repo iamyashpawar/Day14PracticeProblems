@@ -10,11 +10,11 @@ public class Stack<T> {
         stackLinkedlist.display();
     }
 
-    public void peak() {
+    public void peek() {
         stackLinkedlist.peak();
     }
 
     public void pop() {
-        stackLinkedlist.pop();
+        stackLinkedlist.popLast();
     }
 }

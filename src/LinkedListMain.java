@@ -8,7 +8,7 @@ public class LinkedListMain {
         stackList.push(56);
         stackList.display();
 
-        stackList.peak();
+        stackList.peek();
 
         stackList.display();
 
@@ -22,6 +22,9 @@ public class LinkedListMain {
         queueList.enqueue(30);
         queueList.enqueue(70);
 
+        queueList.display();
+
+        queueList.dequeue();
         queueList.display();
     }
 }
